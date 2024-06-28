@@ -1,0 +1,82 @@
+body{
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 400px;
+    padding:50px;
+    background-color: white;
+    min-height: 500px;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 150px;
+}
+
+header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.date-selection{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+}
+
+.date-selection>input{
+    border: solid lightblue;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.lines{
+    border-bottom: 3pt solid  gray;
+    width: 300px;
+}
+button{
+    background-color:rgb(135, 64, 249);
+    border-radius: 100%;
+    width: 5vh;
+    height: 5vh;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.result-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}   

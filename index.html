@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        
+        <div class="container">
+            <header>
+                <form id="agecalculator">
+                    <div class="date-container">
+                        <div class="date-selection">
+                            <label id="casess">DAY</label>
+                            <input class="date-input" id="day-input" type="text"/>
+                        </div>
+                        <div class="date-selection">
+                            <label>MONTH</label>
+                            <input class="date-input" id="month-input" type="text"/>
+                        </div>
+                        <div class="date-selection">
+                            <label>YEAR</label>
+                            <input class="date-input" id="year-input" type="text"/>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                            <div class="lines">
+                                <!-- just a line -->
+                            </div>
+                            <button id="buttoncalculate">
+                                <img src="assets/images/icon-arrow.svg"/>
+                            </button>
+                    </div>
+                </form>
+            </header>
+            <content>
+                <div class="result-container">
+                    <div class="result-number">
+                        <div class="data-output" id="output-day">
+                            <p class="year-output">- -</p>
+                        </div>
+                        <div class="data-output">
+                            <p class="month-output">- -</p>
+                        </div>
+                        <div class="data-output">
+                            <p class="day-output">- -</p>
+                        </div>
+                    </div>
+                    <div class="result-unit">
+                        <div class="unit-output">
+                            <p>years</p>
+                        </div>
+                        <div class="unit-output">
+                            <p>months</p>
+                        </div>
+                        <div class="unit-output">
+                            <p>days</p>
+                        </div>
+                    </div>
+                </div>
+            </content>
+        </container>
+        <script src="script.js"></script>
+    </body>
+</html>
